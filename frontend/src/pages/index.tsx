@@ -1,5 +1,5 @@
 import Countries from "@/components/Countries";
-import AddCountryForm from "@/components/forms/addCountryForm";
+import AddCountryForm from "@/components/forms/AddCountryForm";
 
 
 export default function Home() {

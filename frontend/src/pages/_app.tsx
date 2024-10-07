@@ -9,7 +9,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ApolloProvider client={apolloClient}>
       <Header />
-      <main className="pt-28">
+      <main className="sm:pt-16 pt-24">
         <Component {...pageProps} />
       </main>
     </ApolloProvider>

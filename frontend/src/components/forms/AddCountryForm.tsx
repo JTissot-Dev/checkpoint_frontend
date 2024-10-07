@@ -32,7 +32,7 @@ const AddCountryForm: React.FC = () => {
   return (
     <form 
       onSubmit={e => handleSubmit(e)}
-      className="flex flex-col space-y-4 sm:my-10"
+      className="flex flex-col space-y-4"
     >
       <input
         name="name"
